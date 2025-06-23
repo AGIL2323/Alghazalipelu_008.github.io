@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeri.css">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeri.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="container">
+        <header class="header">
+            <h1 class="judul">welcome to my website</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">beranda</a></li>
+                    <li><a href="profil.html">profil</a></li>
+                    <li><a href="galeri.html">galeri</a></li>
+                    <li><a href="artikel.html">artikel</a></li>
+                    <li><a href="tentang.html">tentang</a></li>
+                </ul>
+            </nav>
+        </header>
+         <div class="header">
+    </div>
+    <h3>foto bersama keluarga</h3>
+    <div class="gallery">
+        <img src="495265170_1238668021250552_794617453757551147_n.jpg" onclick="preview(this)">
+        <img src="495265170_1238668021250552_794617453757551147_n.jpg" onclick="preview(this)">
+        <img src="495265170_1238668021250552_794617453757551147_n.jpg" onclick="preview(this)">
+        <img src="495265170_1238668021250552_794617453757551147_n.jpg" onclick="preview(this)">
+        <img src="495265170_1238668021250552_794617453757551147_n.jpg" onclick="preview(this)">
+        </div>
+        <h3>foto bersama Teman</h3>
+       <div class="gallery"> 
+        <img src="506753658_1068982871836932_5314424992221036761_n.jpg" onclick="preview(this)">
+        <img src="506753658_1068982871836932_5314424992221036761_n.jpg" onclick="preview(this)">
+        <img src="506753658_1068982871836932_5314424992221036761_n.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        </div>
+        <h3> foto Saya</h3>
+        <div class="gallery">
+        <img src="511299079_1895714947936752_8399226919764248622_n.jpg" onclick="preview(this)">
+        <img src="508539437_1667630027224282_3676030955502177896_n.jpg" onclick="preview(this)">
+        <img src="506754901_1225174482479925_7001415967313168609_n.jpg" onclick="preview(this)">
+        <img src="511198996_1260059038980030_6999238805502859424_n.jpg" onclick="preview(this)">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        </div>
+        <h3>foto</h3>
+        <div class="gallery">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        <img src="507326327_2118308168666836_3702941478396575619_n.jpg" onclick="preview(this)">
+        </div>
+    
+
+    <div id="modal" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img id="previewImg">
+    </div>
+
+    <script>
+        function preview(img) {
+            document.getElementById('modal').style.display = 'block';
+            document.getElementById('previewImg').src = img.src;
+        }
+    </script>
+   
+</body>
+</html>
+    
+</body>
+</html>
